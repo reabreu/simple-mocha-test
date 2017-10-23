@@ -1,0 +1,28 @@
+{
+  "name": "simple-mocha-test",
+  "version": "1.0.0",
+  "description": "Simple Mocha test",
+  "scripts": {
+    "test": "mocha './foo/foo_test.js'",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reabreu/simple-mocha-test.git"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "js"
+  ],
+  "author": "Rúben Freitas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reabreu/simple-mocha-test/issues"
+  },
+  "homepage": "https://github.com/reabreu/simple-mocha-test#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
